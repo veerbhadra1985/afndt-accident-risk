@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Accident risk prediction under temporal shift, exposure leakage, and federation"
+message: "If you use this software or its results, please cite it."
+type: software
+authors:
+  - family-names: "Singh"
+    given-names: "Veer Bhadra Pratap"
+    email: "er.veerpratap@gmail.com"
+    affiliation: "Department of Cyber Security, School of Skill Sciences & Entrepreneurship, Galgotias University, Greater Noida, Uttar Pradesh, India"
+    orcid: "https://orcid.org/0000-0002-3162-134X"
+version: "1.0.0"
+date-released: "2026-09-24"
+license: MIT
+repository-code: "https://github.com/[USERNAME]/afndt-accident-risk"
+keywords:
+  - road safety
+  - accident risk prediction
+  - federated learning
+  - graph neural networks
+  - distribution shift
