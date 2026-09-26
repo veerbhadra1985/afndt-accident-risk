@@ -9,7 +9,7 @@ Four changes over v2, each with a reason and each switchable for the ablation:
   4. free depth (2/4/8 layers), the option v2 never had
 """
 import torch, torch.nn as nn, torch.nn.functional as F
-from .graph import N_EDGES
+from .graph import n_edges
 from .v3graph import REL
 
 class Ops3:
@@ -27,7 +27,7 @@ class AFNDTv3(nn.Module):
         self.use_rel, self.use_aux, self.use_mix, self.use_hyper = use_rel, use_aux, use_mix, use_hyper
         self.rel_raw = nn.Parameter(torch.zeros(len(REL)))          # relation weights (softmax)
         if use_hyper:
-            self.w_raw = nn.Parameter(torch.full((N_EDGES,), 0.5413)); self.g_raw = nn.Parameter(torch.tensor(-2.0))
+            self.w_raw = nn.Parameter(torch.full((n_edges(),), 0.5413)); self.g_raw = nn.Parameter(torch.tensor(-2.0))
         self.head = nn.Linear(h, 1)                                  # global head (shared)
         self.pers = nn.Linear(h, 1)                                  # personal head (kept local)
         self.mix = nn.Parameter(torch.tensor(0.0))                   # personal/global gate (kept local)

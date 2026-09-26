@@ -1,0 +1,409 @@
+State,Year,TotalVMT_millions
+Alabama,2016,71631.0
+Alaska,2016,5478.0
+Arizona,2016,76159.0
+Arkansas,2016,38530.0
+California,2016,315244.0
+Colorado,2016,53935.0
+Connecticut,2016,29666.0
+Delaware,2016,9872.0
+District of Columbia,2016,3421.0
+Florida,2016,227757.0
+Georgia,2016,128871.0
+Hawaii,2016,10289.0
+Idaho,2016,19157.0
+Illinois,2016,103752.0
+Indiana,2016,95684.0
+Iowa,2016,32712.0
+Kansas,2016,31334.0
+Kentucky,2016,48047.0
+Louisiana,2016,56514.0
+Maine,2016,14651.0
+Maryland,2016,56746.0
+Massachusetts,2016,56949.0
+Michigan,2016,95901.0
+Minnesota,2016,57471.0
+Mississippi,2016,39952.0
+Missouri,2016,79431.0
+Montana,2016,13514.0
+Nebraska,2016,21270.0
+Nevada,2016,27647.0
+New Hampshire,2016,13281.0
+New Jersey,2016,75288.0
+New Mexico,2016,26831.0
+New York,2016,115382.0
+North Carolina,2016,119381.0
+North Dakota,2016,9180.0
+Ohio,2016,110578.0
+Oklahoma,2016,44566.0
+Oregon,2016,36576.0
+Pennsylvania,2016,99912.0
+Rhode Island,2016,7531.0
+South Carolina,2016,58988.0
+South Dakota,2016,10170.0
+Tennessee,2016,83219.0
+Texas,2016,290890.0
+Utah,2016,34336.0
+Vermont,2016,7128.0
+Virginia,2016,82083.0
+Washington,2016,58483.0
+West Virginia,2016,15312.0
+Wisconsin,2016,66167.0
+Wyoming,2016,9324.0
+Alabama,2017,71631.0
+Alaska,2017,5478.0
+Arizona,2017,76159.0
+Arkansas,2017,38530.0
+California,2017,315244.0
+Colorado,2017,53935.0
+Connecticut,2017,29666.0
+Delaware,2017,9872.0
+District of Columbia,2017,3421.0
+Florida,2017,227757.0
+Georgia,2017,128871.0
+Hawaii,2017,10289.0
+Idaho,2017,19157.0
+Illinois,2017,103752.0
+Indiana,2017,95684.0
+Iowa,2017,32712.0
+Kansas,2017,31334.0
+Kentucky,2017,48047.0
+Louisiana,2017,56514.0
+Maine,2017,14651.0
+Maryland,2017,56746.0
+Massachusetts,2017,56949.0
+Michigan,2017,95901.0
+Minnesota,2017,57471.0
+Mississippi,2017,39952.0
+Missouri,2017,79431.0
+Montana,2017,13514.0
+Nebraska,2017,21270.0
+Nevada,2017,27647.0
+New Hampshire,2017,13281.0
+New Jersey,2017,75288.0
+New Mexico,2017,26831.0
+New York,2017,115382.0
+North Carolina,2017,119381.0
+North Dakota,2017,9180.0
+Ohio,2017,110578.0
+Oklahoma,2017,44566.0
+Oregon,2017,36576.0
+Pennsylvania,2017,99912.0
+Rhode Island,2017,7531.0
+South Carolina,2017,58988.0
+South Dakota,2017,10170.0
+Tennessee,2017,83219.0
+Texas,2017,290890.0
+Utah,2017,34336.0
+Vermont,2017,7128.0
+Virginia,2017,82083.0
+Washington,2017,58483.0
+West Virginia,2017,15312.0
+Wisconsin,2017,66167.0
+Wyoming,2017,9324.0
+Alabama,2018,71631.0
+Alaska,2018,5478.0
+Arizona,2018,76159.0
+Arkansas,2018,38530.0
+California,2018,315244.0
+Colorado,2018,53935.0
+Connecticut,2018,29666.0
+Delaware,2018,9872.0
+District of Columbia,2018,3421.0
+Florida,2018,227757.0
+Georgia,2018,128871.0
+Hawaii,2018,10289.0
+Idaho,2018,19157.0
+Illinois,2018,103752.0
+Indiana,2018,95684.0
+Iowa,2018,32712.0
+Kansas,2018,31334.0
+Kentucky,2018,48047.0
+Louisiana,2018,56514.0
+Maine,2018,14651.0
+Maryland,2018,56746.0
+Massachusetts,2018,56949.0
+Michigan,2018,95901.0
+Minnesota,2018,57471.0
+Mississippi,2018,39952.0
+Missouri,2018,79431.0
+Montana,2018,13514.0
+Nebraska,2018,21270.0
+Nevada,2018,27647.0
+New Hampshire,2018,13281.0
+New Jersey,2018,75288.0
+New Mexico,2018,26831.0
+New York,2018,115382.0
+North Carolina,2018,119381.0
+North Dakota,2018,9180.0
+Ohio,2018,110578.0
+Oklahoma,2018,44566.0
+Oregon,2018,36576.0
+Pennsylvania,2018,99912.0
+Rhode Island,2018,7531.0
+South Carolina,2018,58988.0
+South Dakota,2018,10170.0
+Tennessee,2018,83219.0
+Texas,2018,290890.0
+Utah,2018,34336.0
+Vermont,2018,7128.0
+Virginia,2018,82083.0
+Washington,2018,58483.0
+West Virginia,2018,15312.0
+Wisconsin,2018,66167.0
+Wyoming,2018,9324.0
+Alabama,2019,71631.0
+Alaska,2019,5478.0
+Arizona,2019,76159.0
+Arkansas,2019,38530.0
+California,2019,315244.0
+Colorado,2019,53935.0
+Connecticut,2019,29666.0
+Delaware,2019,9872.0
+District of Columbia,2019,3421.0
+Florida,2019,227757.0
+Georgia,2019,128871.0
+Hawaii,2019,10289.0
+Idaho,2019,19157.0
+Illinois,2019,103752.0
+Indiana,2019,95684.0
+Iowa,2019,32712.0
+Kansas,2019,31334.0
+Kentucky,2019,48047.0
+Louisiana,2019,56514.0
+Maine,2019,14651.0
+Maryland,2019,56746.0
+Massachusetts,2019,56949.0
+Michigan,2019,95901.0
+Minnesota,2019,57471.0
+Mississippi,2019,39952.0
+Missouri,2019,79431.0
+Montana,2019,13514.0
+Nebraska,2019,21270.0
+Nevada,2019,27647.0
+New Hampshire,2019,13281.0
+New Jersey,2019,75288.0
+New Mexico,2019,26831.0
+New York,2019,115382.0
+North Carolina,2019,119381.0
+North Dakota,2019,9180.0
+Ohio,2019,110578.0
+Oklahoma,2019,44566.0
+Oregon,2019,36576.0
+Pennsylvania,2019,99912.0
+Rhode Island,2019,7531.0
+South Carolina,2019,58988.0
+South Dakota,2019,10170.0
+Tennessee,2019,83219.0
+Texas,2019,290890.0
+Utah,2019,34336.0
+Vermont,2019,7128.0
+Virginia,2019,82083.0
+Washington,2019,58483.0
+West Virginia,2019,15312.0
+Wisconsin,2019,66167.0
+Wyoming,2019,9324.0
+Alabama,2020,71631.0
+Alaska,2020,5478.0
+Arizona,2020,76159.0
+Arkansas,2020,38530.0
+California,2020,315244.0
+Colorado,2020,53935.0
+Connecticut,2020,29666.0
+Delaware,2020,9872.0
+District of Columbia,2020,3421.0
+Florida,2020,227757.0
+Georgia,2020,128871.0
+Hawaii,2020,10289.0
+Idaho,2020,19157.0
+Illinois,2020,103752.0
+Indiana,2020,95684.0
+Iowa,2020,32712.0
+Kansas,2020,31334.0
+Kentucky,2020,48047.0
+Louisiana,2020,56514.0
+Maine,2020,14651.0
+Maryland,2020,56746.0
+Massachusetts,2020,56949.0
+Michigan,2020,95901.0
+Minnesota,2020,57471.0
+Mississippi,2020,39952.0
+Missouri,2020,79431.0
+Montana,2020,13514.0
+Nebraska,2020,21270.0
+Nevada,2020,27647.0
+New Hampshire,2020,13281.0
+New Jersey,2020,75288.0
+New Mexico,2020,26831.0
+New York,2020,115382.0
+North Carolina,2020,119381.0
+North Dakota,2020,9180.0
+Ohio,2020,110578.0
+Oklahoma,2020,44566.0
+Oregon,2020,36576.0
+Pennsylvania,2020,99912.0
+Rhode Island,2020,7531.0
+South Carolina,2020,58988.0
+South Dakota,2020,10170.0
+Tennessee,2020,83219.0
+Texas,2020,290890.0
+Utah,2020,34336.0
+Vermont,2020,7128.0
+Virginia,2020,82083.0
+Washington,2020,58483.0
+West Virginia,2020,15312.0
+Wisconsin,2020,66167.0
+Wyoming,2020,9324.0
+Alabama,2021,71631.0
+Alaska,2021,5478.0
+Arizona,2021,76159.0
+Arkansas,2021,38530.0
+California,2021,315244.0
+Colorado,2021,53935.0
+Connecticut,2021,29666.0
+Delaware,2021,9872.0
+District of Columbia,2021,3421.0
+Florida,2021,227757.0
+Georgia,2021,128871.0
+Hawaii,2021,10289.0
+Idaho,2021,19157.0
+Illinois,2021,103752.0
+Indiana,2021,95684.0
+Iowa,2021,32712.0
+Kansas,2021,31334.0
+Kentucky,2021,48047.0
+Louisiana,2021,56514.0
+Maine,2021,14651.0
+Maryland,2021,56746.0
+Massachusetts,2021,56949.0
+Michigan,2021,95901.0
+Minnesota,2021,57471.0
+Mississippi,2021,39952.0
+Missouri,2021,79431.0
+Montana,2021,13514.0
+Nebraska,2021,21270.0
+Nevada,2021,27647.0
+New Hampshire,2021,13281.0
+New Jersey,2021,75288.0
+New Mexico,2021,26831.0
+New York,2021,115382.0
+North Carolina,2021,119381.0
+North Dakota,2021,9180.0
+Ohio,2021,110578.0
+Oklahoma,2021,44566.0
+Oregon,2021,36576.0
+Pennsylvania,2021,99912.0
+Rhode Island,2021,7531.0
+South Carolina,2021,58988.0
+South Dakota,2021,10170.0
+Tennessee,2021,83219.0
+Texas,2021,290890.0
+Utah,2021,34336.0
+Vermont,2021,7128.0
+Virginia,2021,82083.0
+Washington,2021,58483.0
+West Virginia,2021,15312.0
+Wisconsin,2021,66167.0
+Wyoming,2021,9324.0
+Alabama,2022,71631.0
+Alaska,2022,5478.0
+Arizona,2022,76159.0
+Arkansas,2022,38530.0
+California,2022,315244.0
+Colorado,2022,53935.0
+Connecticut,2022,29666.0
+Delaware,2022,9872.0
+District of Columbia,2022,3421.0
+Florida,2022,227757.0
+Georgia,2022,128871.0
+Hawaii,2022,10289.0
+Idaho,2022,19157.0
+Illinois,2022,103752.0
+Indiana,2022,95684.0
+Iowa,2022,32712.0
+Kansas,2022,31334.0
+Kentucky,2022,48047.0
+Louisiana,2022,56514.0
+Maine,2022,14651.0
+Maryland,2022,56746.0
+Massachusetts,2022,56949.0
+Michigan,2022,95901.0
+Minnesota,2022,57471.0
+Mississippi,2022,39952.0
+Missouri,2022,79431.0
+Montana,2022,13514.0
+Nebraska,2022,21270.0
+Nevada,2022,27647.0
+New Hampshire,2022,13281.0
+New Jersey,2022,75288.0
+New Mexico,2022,26831.0
+New York,2022,115382.0
+North Carolina,2022,119381.0
+North Dakota,2022,9180.0
+Ohio,2022,110578.0
+Oklahoma,2022,44566.0
+Oregon,2022,36576.0
+Pennsylvania,2022,99912.0
+Rhode Island,2022,7531.0
+South Carolina,2022,58988.0
+South Dakota,2022,10170.0
+Tennessee,2022,83219.0
+Texas,2022,290890.0
+Utah,2022,34336.0
+Vermont,2022,7128.0
+Virginia,2022,82083.0
+Washington,2022,58483.0
+West Virginia,2022,15312.0
+Wisconsin,2022,66167.0
+Wyoming,2022,9324.0
+Alabama,2023,71631.0
+Alaska,2023,5478.0
+Arizona,2023,76159.0
+Arkansas,2023,38530.0
+California,2023,315244.0
+Colorado,2023,53935.0
+Connecticut,2023,29666.0
+Delaware,2023,9872.0
+District of Columbia,2023,3421.0
+Florida,2023,227757.0
+Georgia,2023,128871.0
+Hawaii,2023,10289.0
+Idaho,2023,19157.0
+Illinois,2023,103752.0
+Indiana,2023,95684.0
+Iowa,2023,32712.0
+Kansas,2023,31334.0
+Kentucky,2023,48047.0
+Louisiana,2023,56514.0
+Maine,2023,14651.0
+Maryland,2023,56746.0
+Massachusetts,2023,56949.0
+Michigan,2023,95901.0
+Minnesota,2023,57471.0
+Mississippi,2023,39952.0
+Missouri,2023,79431.0
+Montana,2023,13514.0
+Nebraska,2023,21270.0
+Nevada,2023,27647.0
+New Hampshire,2023,13281.0
+New Jersey,2023,75288.0
+New Mexico,2023,26831.0
+New York,2023,115382.0
+North Carolina,2023,119381.0
+North Dakota,2023,9180.0
+Ohio,2023,110578.0
+Oklahoma,2023,44566.0
+Oregon,2023,36576.0
+Pennsylvania,2023,99912.0
+Rhode Island,2023,7531.0
+South Carolina,2023,58988.0
+South Dakota,2023,10170.0
+Tennessee,2023,83219.0
+Texas,2023,290890.0
+Utah,2023,34336.0
+Vermont,2023,7128.0
+Virginia,2023,82083.0
+Washington,2023,58483.0
+West Virginia,2023,15312.0
+Wisconsin,2023,66167.0
+Wyoming,2023,9324.0

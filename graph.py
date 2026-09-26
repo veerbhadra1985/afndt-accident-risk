@@ -8,7 +8,8 @@ sub-hypergraph: hyperedge sums are taken only over the nodes that are present.
 import numpy as np, torch
 from .config import STATES
 
-N_EDGES = len(STATES) + 12 + 4          # 49 + 12 + 4 = 65
+def n_edges(): return len(STATES) + 12 + 4      # clients + 12 months + 4 time-of-day bins
+N_EDGES = n_edges()
 
 def edge_ids(ctx):
     s = ctx.state.map({s: i for i, s in enumerate(STATES)}).to_numpy()
@@ -21,19 +22,19 @@ class HyperProp:
     def __init__(self, eids):
         self.eids = torch.as_tensor(eids)                     # (n,3)
         self.flat = self.eids.reshape(-1)
-        deg = torch.zeros(N_EDGES).index_add_(0, self.flat, torch.ones(self.flat.numel()))
+        deg = torch.zeros(n_edges()).index_add_(0, self.flat, torch.ones(self.flat.numel()))
         self.de = deg.clamp_min(1.0)
         self.dv = 3.0                                          # every node has degree 3
 
     def __call__(self, X, w):                                  # w: (65,) positive weights
         Xs = X / self.dv ** 0.5
-        E = torch.zeros(N_EDGES, X.shape[1], dtype=X.dtype).index_add_(0, self.flat, Xs.repeat_interleave(3, 0))
+        E = torch.zeros(n_edges(), X.shape[1], dtype=X.dtype).index_add_(0, self.flat, Xs.repeat_interleave(3, 0))
         E = E * (w / self.de).unsqueeze(1)                     # W De^-1 H^T
         return E[self.eids].sum(1) / self.dv ** 0.5            # Dv^-1/2 H (.)
 
     def v2e2v(self, X):
         """HGNN+ spatial two-stage mean message passing (vertex->hyperedge->vertex)."""
-        E = torch.zeros(N_EDGES, X.shape[1], dtype=X.dtype).index_add_(0, self.flat, X.repeat_interleave(3, 0))
+        E = torch.zeros(n_edges(), X.shape[1], dtype=X.dtype).index_add_(0, self.flat, X.repeat_interleave(3, 0))
         E = E / self.de.unsqueeze(1)
         return E[self.eids].mean(1)
 

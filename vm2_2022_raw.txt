@@ -1,0 +1,51 @@
+Alabama 71,631
+Alaska 5,478
+Arizona 76,159
+Arkansas 38,530
+California 315,244
+Colorado 53,935
+Connecticut 29,666
+Delaware 9,872
+District of Columbia 3,421
+Florida 227,757
+Georgia 128,871
+Hawaii 10,289
+Idaho 19,157
+Illinois 103,752
+Indiana 95,684
+Iowa 32,712
+Kansas 31,334
+Kentucky 48,047
+Louisiana 56,514
+Maine 14,651
+Maryland 56,746
+Massachusetts 56,949
+Michigan 95,901
+Minnesota 57,471
+Mississippi 39,952
+Missouri 79,431
+Montana 13,514
+Nebraska 21,270
+Nevada 27,647
+New Hampshire 13,281
+New Jersey 75,288
+New Mexico 26,831
+New York 115,382
+North Carolina 119,381
+North Dakota 9,180
+Ohio 110,578
+Oklahoma 44,566
+Oregon 36,576
+Pennsylvania 99,912
+Rhode Island 7,531
+South Carolina 58,988
+South Dakota 10,170
+Tennessee 83,219
+Texas 290,890
+Utah 34,336
+Vermont 7,128
+Virginia 82,083
+Washington 58,483
+West Virginia 15,312
+Wisconsin 66,167
+Wyoming 9,324

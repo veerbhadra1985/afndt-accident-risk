@@ -54,6 +54,8 @@ def train_central(model, D, S, lr, seed, epochs=300, eval_every=5, patience=6, w
             else:
                 bad += 1
                 if bad >= patience: break
+    assert state is not None, ("validation AUC was NaN in every epoch: the validation split is empty "
+                               "or single-class - check SPLIT years and the label definition")
     model.load_state_dict(state); return model, None, hist
 
 def _shared_names(model, personal):

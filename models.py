@@ -1,6 +1,6 @@
 """FedHSA and all neural baselines. Every model has forward(X, ops) -> dict(logit=..., ...)."""
 import torch, torch.nn as nn, torch.nn.functional as F
-from .graph import N_EDGES
+from .graph import n_edges
 
 class Ops:
     """Structure operators for one node subset (a client, or all nodes for centralized models)."""
@@ -26,7 +26,7 @@ class FedHSA(nn.Module):
         self.alpha = cfg.alpha if alpha is None else alpha
         self.beta = cfg.beta if beta is None else beta
         self.use_hypergraph, self.use_residual, self.use_spiking = use_hypergraph, use_residual, use_spiking
-        self.w_raw = nn.Parameter(torch.full((N_EDGES,), 0.5413))      # softplus(0.5413) = 1.0
+        self.w_raw = nn.Parameter(torch.full((n_edges(),), 0.5413))      # softplus(0.5413) = 1.0
         self.inp = nn.Linear(d_in, d_in)                                   # I_i = w_i^T x_hat
         self.emb = nn.Parameter(torch.randn(d_in, cfg.d_model) * 0.1)      # one token per feature channel
         self.att = nn.MultiheadAttention(cfg.d_model, cfg.heads, batch_first=True)
@@ -72,7 +72,7 @@ class MLP(nn.Module):
 class HGNN(nn.Module):
     """Feng et al. (2019): two hypergraph convolutions with learnable hyperedge weights."""
     def __init__(self, d_in=6, h=64):
-        super().__init__(); self.w_raw = nn.Parameter(torch.full((N_EDGES,), 0.5413))
+        super().__init__(); self.w_raw = nn.Parameter(torch.full((n_edges(),), 0.5413))
         self.l1, self.l2 = nn.Linear(d_in, h), nn.Linear(h, 1)
     def forward(self, X, ops):
         w = F.softplus(self.w_raw)

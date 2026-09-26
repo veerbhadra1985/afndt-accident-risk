@@ -1,0 +1,2659 @@
+{
+ "runs": {
+  "within_state|State-only LR|{}|0": {
+   "label": "within_state",
+   "family": "State-only LR",
+   "config": {},
+   "seed": 0,
+   "val_auc": 0.53,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|State-only LR|{}|1": {
+   "label": "within_state",
+   "family": "State-only LR",
+   "config": {},
+   "seed": 1,
+   "val_auc": 0.53,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 0.1}|0": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 0.1}|1": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 1.0}|0": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 1.0
+   },
+   "seed": 0,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 1.0}|1": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 1.0
+   },
+   "seed": 1,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 10.0}|0": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 10.0
+   },
+   "seed": 0,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|Logistic regression|{\"C\": 10.0}|1": {
+   "label": "within_state",
+   "family": "Logistic regression",
+   "config": {
+    "C": 10.0
+   },
+   "seed": 1,
+   "val_auc": 0.8495,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 3, \"lr\": 0.05}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9228,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 3, \"lr\": 0.05}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.9229,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 3, \"lr\": 0.1}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.9266,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 3, \"lr\": 0.1}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.9265,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 4, \"lr\": 0.05}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9261,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 4, \"lr\": 0.05}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.9259,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 4, \"lr\": 0.1}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.9279,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 4, \"lr\": 0.1}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.9276,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 6, \"lr\": 0.05}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9277,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 6, \"lr\": 0.05}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.9277,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 6, \"lr\": 0.1}|0": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.9261,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|XGBoost|{\"depth\": 6, \"lr\": 0.1}|1": {
+   "label": "within_state",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.9265,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.915,
+   "seconds": 26.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9147,
+   "seconds": 19.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.916,
+   "seconds": 15.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9174,
+   "seconds": 18.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 128, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9164,
+   "seconds": 35.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 128, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9178,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 128, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.917,
+   "seconds": 26.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 128, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9195,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 256, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9172,
+   "seconds": 115.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 256, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9176,
+   "seconds": 109.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 256, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9172,
+   "seconds": 94.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|MLP|{\"h\": 256, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.917,
+   "seconds": 71.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8796,
+   "seconds": 71.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.88,
+   "seconds": 74.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8839,
+   "seconds": 70.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8838,
+   "seconds": 68.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 128, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8837,
+   "seconds": 127.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 128, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.884,
+   "seconds": 130.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 128, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8876,
+   "seconds": 129.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 128, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8868,
+   "seconds": 130.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 256, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8878,
+   "seconds": 265.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 256, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8865,
+   "seconds": 263.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 256, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8896,
+   "seconds": 272.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCN|{\"h\": 256, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCN",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8885,
+   "seconds": 278.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 16, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8871,
+   "seconds": 191.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 16, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.887,
+   "seconds": 188.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 16, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8902,
+   "seconds": 185.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 16, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8916,
+   "seconds": 186.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 32, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8895,
+   "seconds": 345.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 32, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8902,
+   "seconds": 345.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 32, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8915,
+   "seconds": 351.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 32, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8912,
+   "seconds": 351.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8909,
+   "seconds": 711.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8917,
+   "seconds": 687.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8947,
+   "seconds": 690.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GAT|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8945,
+   "seconds": 692.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 2, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9081,
+   "seconds": 130.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 2, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9081,
+   "seconds": 120.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 2, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9122,
+   "seconds": 124.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 2, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9115,
+   "seconds": 134.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 4, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9044,
+   "seconds": 262.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 4, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9043,
+   "seconds": 261.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 4, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9096,
+   "seconds": 237.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 4, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9098,
+   "seconds": 232.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 8, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9007,
+   "seconds": 403.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 8, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8977,
+   "seconds": 384.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 8, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9074,
+   "seconds": 397.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|GCNII|{\"layers\": 8, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9075,
+   "seconds": 373.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.7935,
+   "seconds": 5.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8042,
+   "seconds": 41.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8078,
+   "seconds": 40.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8056,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 128, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8043,
+   "seconds": 81.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 128, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8049,
+   "seconds": 88.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 128, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8065,
+   "seconds": 85.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 128, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8085,
+   "seconds": 82.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 256, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8036,
+   "seconds": 200.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 256, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8036,
+   "seconds": 195.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 256, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8053,
+   "seconds": 196.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|HGNN|{\"h\": 256, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "HGNN",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8054,
+   "seconds": 199.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8931,
+   "seconds": 156.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8935,
+   "seconds": 149.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8983,
+   "seconds": 148.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8979,
+   "seconds": 150.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8873,
+   "seconds": 276.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8878,
+   "seconds": 269.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8972,
+   "seconds": 265.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.896,
+   "seconds": 266.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8833,
+   "seconds": 532.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8834,
+   "seconds": 508.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8934,
+   "seconds": 503.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8939,
+   "seconds": 501.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.909,
+   "seconds": 505.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9102,
+   "seconds": 503.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9092,
+   "seconds": 923.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9096,
+   "seconds": 949.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9067,
+   "seconds": 1747.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GCNII|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9069,
+   "seconds": 1705.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8919,
+   "seconds": 160.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8923,
+   "seconds": 165.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8956,
+   "seconds": 155.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8948,
+   "seconds": 164.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8867,
+   "seconds": 289.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8866,
+   "seconds": 289.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8928,
+   "seconds": 284.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8923,
+   "seconds": 288.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8833,
+   "seconds": 552.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8836,
+   "seconds": 571.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8896,
+   "seconds": 552.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8894,
+   "seconds": 536.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9082,
+   "seconds": 536.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9081,
+   "seconds": 538.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9077,
+   "seconds": 998.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9084,
+   "seconds": 978.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9052,
+   "seconds": 1798.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedProx-GCNII|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedProx-GCNII",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9053,
+   "seconds": 1805.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8817,
+   "seconds": 190.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8821,
+   "seconds": 186.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8863,
+   "seconds": 199.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8868,
+   "seconds": 204.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8845,
+   "seconds": 285.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8862,
+   "seconds": 287.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8889,
+   "seconds": 288.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8891,
+   "seconds": 286.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8892,
+   "seconds": 469.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8885,
+   "seconds": 467.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8902,
+   "seconds": 488.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8911,
+   "seconds": 471.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.8895,
+   "seconds": 643.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 16, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 16,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.8903,
+   "seconds": 631.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.8905,
+   "seconds": 942.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 32, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 32,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.8912,
+   "seconds": 938.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.8915,
+   "seconds": 1574.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|FedAvg-GAT|{\"h\": 64, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GAT",
+   "config": {
+    "h": 64,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.8932,
+   "seconds": 1558.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9001,
+   "seconds": 149.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8999,
+   "seconds": 150.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9012,
+   "seconds": 161.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9031,
+   "seconds": 149.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log (12 h timeout)"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8947,
+   "seconds": 170.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8961,
+   "seconds": 163.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9009,
+   "seconds": 164.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9012,
+   "seconds": 164.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8926,
+   "seconds": 302.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8917,
+   "seconds": 301.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8974,
+   "seconds": 301.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8973,
+   "seconds": 303.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.911,
+   "seconds": 308.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9119,
+   "seconds": 305.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9129,
+   "seconds": 543.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9122,
+   "seconds": 540.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9114,
+   "seconds": 1008.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|AFNDT-v2|{\"hyper\": false, \"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "AFNDT-v2",
+   "config": {
+    "hyper": false,
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9117,
+   "seconds": 1181.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|State-only LR|{}|0": {
+   "label": "national",
+   "family": "State-only LR",
+   "config": {},
+   "seed": 0,
+   "val_auc": 0.7776,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|State-only LR|{}|1": {
+   "label": "national",
+   "family": "State-only LR",
+   "config": {},
+   "seed": 1,
+   "val_auc": 0.7776,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 0.1}|0": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 0.1}|1": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 1.0}|0": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 1.0
+   },
+   "seed": 0,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 1.0}|1": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 1.0
+   },
+   "seed": 1,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 10.0}|0": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 10.0
+   },
+   "seed": 0,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|Logistic regression|{\"C\": 10.0}|1": {
+   "label": "national",
+   "family": "Logistic regression",
+   "config": {
+    "C": 10.0
+   },
+   "seed": 1,
+   "val_auc": 0.769,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 3, \"lr\": 0.05}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9562,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 3, \"lr\": 0.05}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.9558,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 3, \"lr\": 0.1}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.964,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 3, \"lr\": 0.1}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 3,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.964,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 4, \"lr\": 0.05}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9638,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 4, \"lr\": 0.05}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.9632,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 4, \"lr\": 0.1}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.9662,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 4, \"lr\": 0.1}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 4,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.9662,
+   "seconds": 0.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 6, \"lr\": 0.05}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "seed": 0,
+   "val_auc": 0.9668,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 6, \"lr\": 0.05}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "seed": 1,
+   "val_auc": 0.967,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 6, \"lr\": 0.1}|0": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.1
+   },
+   "seed": 0,
+   "val_auc": 0.9666,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|XGBoost|{\"depth\": 6, \"lr\": 0.1}|1": {
+   "label": "national",
+   "family": "XGBoost",
+   "config": {
+    "depth": 6,
+    "lr": 0.1
+   },
+   "seed": 1,
+   "val_auc": 0.9667,
+   "seconds": 1.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 64, \"lr\": 0.005}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9226,
+   "seconds": 27.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 64, \"lr\": 0.005}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9131,
+   "seconds": 19.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 64, \"lr\": 0.01}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9288,
+   "seconds": 19.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 64, \"lr\": 0.01}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9303,
+   "seconds": 19.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 128, \"lr\": 0.005}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.927,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 128, \"lr\": 0.005}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9317,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 128, \"lr\": 0.01}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9316,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 128, \"lr\": 0.01}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9351,
+   "seconds": 39.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 256, \"lr\": 0.005}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.9293,
+   "seconds": 123.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 256, \"lr\": 0.005}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.9322,
+   "seconds": 116.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 256, \"lr\": 0.01}|0": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9336,
+   "seconds": 108.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "national|MLP|{\"h\": 256, \"lr\": 0.01}|1": {
+   "label": "national",
+   "family": "MLP",
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9351,
+   "seconds": 118.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8984,
+   "seconds": 178.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8987,
+   "seconds": 169.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9032,
+   "seconds": 167.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9033,
+   "seconds": 165.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8933,
+   "seconds": 289.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8936,
+   "seconds": 313.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.9026,
+   "seconds": 314.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.9015,
+   "seconds": 295.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.005}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 0,
+   "val_auc": 0.8905,
+   "seconds": 554.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.005}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.005
+   },
+   "seed": 1,
+   "val_auc": 0.8907,
+   "seconds": 560.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.01}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 0,
+   "val_auc": 0.8996,
+   "seconds": 564.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.01}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.01
+   },
+   "seed": 1,
+   "val_auc": 0.8996,
+   "seconds": 577.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9119,
+   "seconds": 517.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 2, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9131,
+   "seconds": 524.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9141,
+   "seconds": 936.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 4, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9143,
+   "seconds": 949.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|0": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 0,
+   "val_auc": 0.9114,
+   "seconds": 1772.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  },
+  "within_state|FedAvg-GCNII+FT|{\"layers\": 8, \"lr\": 0.01, \"rounds\": 100}|1": {
+   "label": "within_state",
+   "family": "FedAvg-GCNII+FT",
+   "config": {
+    "layers": 8,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "seed": 1,
+   "val_auc": 0.9115,
+   "seconds": 1727.0,
+   "hist": null,
+   "source": "recovered from Kaggle commit log"
+  }
+ },
+ "info": {
+  "dataset": "UK STATS19 (DfT last-5-years)",
+  "protocol": "train 2021-2023, validate 2024, test 2025",
+  "clients": "43 police forces"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "within_state": {
+  "State-only LR": {
+   "config": {},
+   "val_auc_mean": 0.53,
+   "n_seeds": 2
+  },
+  "Logistic regression": {
+   "config": {
+    "C": 0.1
+   },
+   "val_auc_mean": 0.8495,
+   "n_seeds": 2
+  },
+  "XGBoost": {
+   "config": {
+    "depth": 4,
+    "lr": 0.1
+   },
+   "val_auc_mean": 0.92775,
+   "n_seeds": 2
+  },
+  "MLP": {
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.91825,
+   "n_seeds": 2
+  },
+  "GCN": {
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.8890499999999999,
+   "n_seeds": 2
+  },
+  "GAT": {
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.8946000000000001,
+   "n_seeds": 2
+  },
+  "GCNII": {
+   "config": {
+    "layers": 2,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.91185,
+   "n_seeds": 2
+  },
+  "HGNN": {
+   "config": {
+    "h": 128,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.8075,
+   "n_seeds": 2
+  },
+  "FedAvg-GCNII": {
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "val_auc_mean": 0.9096,
+   "n_seeds": 2
+  },
+  "FedProx-GCNII": {
+   "config": {
+    "layers": 2,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "val_auc_mean": 0.90815,
+   "n_seeds": 2
+  },
+  "FedAvg-GAT": {
+   "config": {
+    "h": 64,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "val_auc_mean": 0.89235,
+   "n_seeds": 2
+  },
+  "AFNDT-v2": {
+   "config": {
+    "hyper": false,
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "val_auc_mean": 0.91255,
+   "n_seeds": 2
+  },
+  "FedAvg-GCNII+FT": {
+   "config": {
+    "layers": 4,
+    "lr": 0.01,
+    "rounds": 100
+   },
+   "val_auc_mean": 0.9142,
+   "n_seeds": 2
+  }
+ }
+}

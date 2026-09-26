@@ -1,0 +1,92 @@
+{
+ "national": {
+  "State-only LR": {
+   "config": {},
+   "val_auc_mean": 0.8979248028541706,
+   "n_seeds": 2
+  },
+  "Logistic regression": {
+   "config": {
+    "C": 10.0
+   },
+   "val_auc_mean": 0.6873417989067906,
+   "n_seeds": 2
+  },
+  "XGBoost": {
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "val_auc_mean": 0.7615942345774118,
+   "n_seeds": 2
+  },
+  "MLP": {
+   "config": {
+    "h": 256,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.7652272211693424,
+   "n_seeds": 2
+  }
+ },
+ "rate_national": {
+  "State-only LR": {
+   "config": {},
+   "val_auc_mean": 0.7810465556260341,
+   "n_seeds": 2
+  },
+  "Logistic regression": {
+   "config": {
+    "C": 0.1
+   },
+   "val_auc_mean": 0.6906241867333027,
+   "n_seeds": 2
+  },
+  "XGBoost": {
+   "config": {
+    "depth": 6,
+    "lr": 0.05
+   },
+   "val_auc_mean": 0.7688673486133717,
+   "n_seeds": 2
+  },
+  "MLP": {
+   "config": {
+    "h": 256,
+    "lr": 0.005
+   },
+   "val_auc_mean": 0.7708385008034601,
+   "n_seeds": 2
+  }
+ },
+ "within_state": {
+  "State-only LR": {
+   "config": {},
+   "val_auc_mean": 0.509995764509924,
+   "n_seeds": 2
+  },
+  "Logistic regression": {
+   "config": {
+    "C": 10.0
+   },
+   "val_auc_mean": 0.76641869672527,
+   "n_seeds": 2
+  },
+  "XGBoost": {
+   "config": {
+    "depth": 3,
+    "lr": 0.1
+   },
+   "val_auc_mean": 0.8532898750162975,
+   "n_seeds": 2
+  },
+  "MLP": {
+   "config": {
+    "h": 64,
+    "lr": 0.01
+   },
+   "val_auc_mean": 0.8549377428956539,
+   "n_seeds": 2
+  }
+ }
+}

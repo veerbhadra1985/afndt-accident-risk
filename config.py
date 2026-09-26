@@ -11,9 +11,12 @@ REGIONS = {
     "Plains-Mountain": ["ND", "SD", "NE", "KS", "MT", "WY", "CO", "NM"],
     "West":          ["ID", "UT", "AZ", "NV", "WA", "OR", "CA"],
 }
-STATES = sorted(s for v in REGIONS.values() for s in v)
+STATES = sorted(s for v in REGIONS.values() for s in v)   # mutated in place by set_profile()
 STATE_REGION = {s: r for r, v in REGIONS.items() for s in v}
 TIME_BINS = [(0, 6), (6, 12), (12, 18), (18, 24)]   # night, morning, afternoon, evening
+# Temporal protocol: train <= TRAIN_END, validate VAL_YEAR, test Q1 of TEST_YEAR.
+# US: 2021 / 2022 / 2023. UK (DfT "last 5 years" file): 2023 / 2024 / 2025.
+SPLIT = {"train_end": 2021, "val_year": 2022, "test_year": 2023}
 FEATURES = ["month_sin", "month_cos", "hour_sin", "hour_cos", "temp_z", "temp_std_z"]
 TEMP_COLS = [4, 5]                                   # indices of temperature features
 
@@ -54,3 +57,17 @@ class Config:
     sens_seeds: list = field(default_factory=lambda: [0, 1, 2])
     shap_nodes: int = 200
     shap_nsamples: int = 200
+
+
+def set_split(train_end, val_year, test_year):
+    SPLIT.update(train_end=train_end, val_year=val_year, test_year=test_year)
+    return dict(SPLIT)
+
+def set_profile(clients, regions, features):
+    """Switch the pipeline to another dataset (e.g. UK STATS19) without touching the models.
+    All three containers are mutated IN PLACE so modules that imported them see the change."""
+    STATES[:] = sorted(clients)
+    REGIONS.clear(); REGIONS.update(regions)
+    STATE_REGION.clear(); STATE_REGION.update({s: r for r, v in REGIONS.items() for s in v})
+    FEATURES[:] = list(features)
+    return len(STATES), len(REGIONS)

@@ -1,6 +1,6 @@
 """AFNDT-v2 and depth-configurable GCNII. All neural models expose forward(X, ops) -> dict(logit=...)."""
 import torch, torch.nn as nn, torch.nn.functional as F
-from .graph import N_EDGES
+from .graph import n_edges
 from .models import SpikeFn
 
 class GCNIIv(nn.Module):
@@ -26,7 +26,7 @@ class AFNDTv2(nn.Module):
         self.alpha = alpha; self.betas = [float(torch.log(torch.tensor(lam / (l + 1) + 1))) for l in range(layers)]
         self.use_hyper, self.use_spike = use_hyper, use_spike
         if use_hyper:
-            self.w_raw = nn.Parameter(torch.full((N_EDGES,), 0.5413))    # softplus -> 1
+            self.w_raw = nn.Parameter(torch.full((n_edges(),), 0.5413))    # softplus -> 1
             self.g_raw = nn.Parameter(torch.tensor(-2.0))                 # gate starts at 0.12
         if use_spike:
             self.lif_in = nn.Linear(h, h); self.t_spike, self.beta, self.theta, self.k = t_spike, beta, theta, k
