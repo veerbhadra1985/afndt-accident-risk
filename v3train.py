@@ -13,8 +13,13 @@ class Structure3:
         self.eids = edge_ids(ctx); self.rel = typed_lattice(ctx)
         self.state = ctx.state.to_numpy(); self._cache = {}
     def ops(self, nodes, key=None):
-        if key is not None and key in self._cache: return self._cache[key]
         nodes = np.asarray(nodes); n = len(nodes)
+        if key is not None:
+            # the cache key must identify the NODE SET, not just its name: two splits can use the
+            # same name ("scope_val") for different node sets
+            key = (key, n, int(nodes[0]) if n else -1, int(nodes[-1]) if n else -1, int(nodes.sum()))
+            if key in self._cache:
+                return self._cache[key]
         props = {}
         for r in REL:
             s, d = subset_edges(self.rel[r][0], self.rel[r][1], nodes); props[r] = GraphProp(s, d, n)

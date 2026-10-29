@@ -12,8 +12,15 @@ class Structure2:
         self.eids = edge_ids(ctx); self.src, self.dst = year_lattice(ctx)
         self.state = ctx.state.to_numpy(); self._cache = {}
     def ops(self, nodes, key=None):
-        if key is not None and key in self._cache: return self._cache[key]
-        nodes = np.asarray(nodes); s, d = subset_edges(self.src, self.dst, nodes)
+        nodes = np.asarray(nodes)
+        if key is not None:
+            # the cache key must identify the NODE SET, not just its name: two splits can use the
+            # same name ("scope_val") for different node sets
+            key = (key, len(nodes), int(nodes[0]) if len(nodes) else -1,
+                   int(nodes[-1]) if len(nodes) else -1, int(nodes.sum()))
+            if key in self._cache:
+                return self._cache[key]
+        s, d = subset_edges(self.src, self.dst, nodes)
         o = Ops(HyperProp(self.eids[nodes]), GraphProp(s, d, len(nodes)), s, d)
         if key is not None: self._cache[key] = o
         return o

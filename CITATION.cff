@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Do accident risk models learn risk or exposure? Code and results for a two-country study"
+title: "Do machine-learning benchmarks for accident-risk prediction compare models or protocols? Code and results for a two-country study"
 message: "If you use this software or its results, please cite it."
 type: software
 authors:
@@ -8,14 +8,16 @@ authors:
     email: "er.veerpratap@gmail.com"
     affiliation: "Department of Cyber Security, School of Skill Sciences & Entrepreneurship, Galgotias University, Greater Noida, Uttar Pradesh, India"
     orcid: "https://orcid.org/0000-0002-3162-134X"
-version: "2.0.0"
-date-released: "2026-09-26"
+version: "2.3.0"
+date-released: "2026-10-27"
 license: MIT
 doi: "10.5281/zenodo.22932569"
 repository-code: "https://github.com/veerbhadra1985/afndt-accident-risk"
 keywords:
-  - road safety
-  - accident risk prediction
+  - machine learning
+  - benchmark evaluation
+  - data leakage
+  - exposure
+  - crash prediction
+  - transferability
   - federated learning
-  - graph neural networks
-  - distribution shift

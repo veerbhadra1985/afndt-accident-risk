@@ -60,6 +60,8 @@ def _sk(clf, X_of, D):
 
 def fit(family, cfg, D, S, seed, variant=None):
     torch.manual_seed(seed); np.random.seed(seed)
+    from .config import FEATURES
+    d_in = len(FEATURES)
     if family == "State-only LR":
         enc = OneHotEncoder(handle_unknown="ignore").fit(D["ctx"][["state"]])
         return _sk(LogisticRegression(max_iter=2000, class_weight="balanced"), lambda idx: enc.transform(D["ctx"].iloc[idx][["state"]]), D)
@@ -69,13 +71,13 @@ def fit(family, cfg, D, S, seed, variant=None):
         ytr = D["y"][D["train"]]; spw = float((ytr == 0).sum() / max((ytr == 1).sum(), 1))
         return _sk(XGBClassifier(n_estimators=300, max_depth=cfg["depth"], learning_rate=cfg["lr"], subsample=0.8, colsample_bytree=0.8,
                                  scale_pos_weight=spw, random_state=seed, n_jobs=-1, eval_metric="auc"), lambda idx: D["X"][idx], D)
-    central = {"MLP": lambda: MLP(h=cfg["h"]), "GCN": lambda: GCN(h=cfg["h"]), "GAT": lambda: GAT(h=cfg["h"]),
-               "GCNII": lambda: GCNIIv(layers=cfg["layers"]), "HGNN": lambda: HGNN(h=cfg["h"])}
+    central = {"MLP": lambda: MLP(d_in=d_in, h=cfg["h"]), "GCN": lambda: GCN(d_in=d_in, h=cfg["h"]), "GAT": lambda: GAT(d_in=d_in, h=cfg["h"]),
+               "GCNII": lambda: GCNIIv(d_in=d_in, layers=cfg["layers"]), "HGNN": lambda: HGNN(d_in=d_in, h=cfg["h"])}
     if family in central:
         m, _, h = train_central(central[family](), D, _s2(S), cfg["lr"], seed)
         return Fitted(lambda sc: predict(m, D, _s2(S), sc), h)
     if family in ("FedAvg-GCNII", "FedProx-GCNII", "FedAvg-GAT", "FedAvg-GCNII+FT"):
-        model = GCNIIv(layers=cfg["layers"], h=cfg.get("h", 64)) if "GCNII" in family else GAT(h=cfg["h"])
+        model = GCNIIv(d_in=d_in, layers=cfg["layers"], h=cfg.get("h", 64)) if "GCNII" in family else GAT(d_in=d_in, h=cfg["h"])
         m, _, h = train_federated(model, D, _s2(S), cfg["lr"], seed, mode="flat", personal=False, mu=0.01 if "Prox" in family else 0.0,
                                   rounds=cfg.get("rounds", 30), patience=15 if "rounds" in cfg else None)
         if family == "FedAvg-GCNII+FT":
@@ -84,7 +86,7 @@ def fit(family, cfg, D, S, seed, variant=None):
         return Fitted(lambda sc: predict(m, D, _s2(S), sc, federated=True), h)
     if family == "AFNDT-v3":
         v = variant or "full"
-        model = AFNDTv3(layers=cfg.get("layers", 4), use_rel=(v != "no relation weights"),
+        model = AFNDTv3(d_in=d_in, layers=cfg.get("layers", 4), use_rel=(v != "no relation weights"),
                         use_aux=(v != "no auxiliary target"), use_mix=(v != "no personalization"),
                         use_hyper=(v == "+ hypergraph branch"))
         mode = "flat" if v == "flat (no regions)" else "hier"
@@ -96,7 +98,7 @@ def fit(family, cfg, D, S, seed, variant=None):
     if family == "AFNDT-v2":
         v = variant or "full"
         hyper = cfg.get("hyper", False)
-        model = AFNDTv2(layers=cfg.get("layers", 8), use_hyper=hyper if v != "toggle hypergraph" else not hyper,
+        model = AFNDTv2(d_in=d_in, layers=cfg.get("layers", 8), use_hyper=hyper if v != "toggle hypergraph" else not hyper,
                         use_spike=(v == "+ spiking readout"))
         if v == "centralized":
             m, _, h = train_central(model, D, _s2(S), cfg["lr"], seed)

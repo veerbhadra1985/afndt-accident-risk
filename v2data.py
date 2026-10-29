@@ -27,9 +27,33 @@ def make_labels(ctx, mode, top=0.40):
     thr = ctx.groupby(keys)["count"].transform(lambda c: c.quantile(1 - top))
     return (ctx["count"] > thr).astype(np.int64).to_numpy()
 
-def temporal_split(ctx, label_mode):
+def random_split(ctx, label_mode, seed=0, frac=(0.70, 0.15, 0.15), top=0.40):
+    """Split contexts at random, ignoring time. This emulates the common practice of drawing
+    training and evaluation units from the same period, and is used only for the protocol
+    comparison in Section 7; it is never used to select or evaluate the models of Table 2."""
+    ctx = ctx.copy(); ctx["y"] = make_labels(ctx, label_mode, top=top)
+    rng = np.random.default_rng(seed); idx = rng.permutation(len(ctx))
+    n1 = int(frac[0] * len(ctx)); n2 = int((frac[0] + frac[1]) * len(ctx))
+    tr, va, te = np.sort(idx[:n1]), np.sort(idx[n1:n2]), np.sort(idx[n2:])
+    fit = ctx.iloc[tr]
+    pairs = ((("temp_mean", "temp_z"), ("temp_std", "temp_std_z")) if "temp_z" in FEATURES
+             else (("wet", "wet_z"), ("adverse", "adverse_z")))
+    for raw, z in pairs:
+        mu, sd = fit[raw].mean(), fit[raw].std(ddof=0) + 1e-8
+        ctx[z] = (ctx[raw] - mu) / sd
+    if "expo_z" in FEATURES:
+        mu, sd = np.log(fit["exposure"]).mean(), np.log(fit["exposure"]).std(ddof=0) + 1e-8
+        ctx["expo_z"] = (np.log(ctx["exposure"]) - mu) / sd
+    info = dict(label=label_mode, split="random", n_train=len(tr), n_val=len(va), n_test=len(te),
+                pos_train=float(ctx.y.iloc[tr].mean()), pos_val=float(ctx.y.iloc[va].mean()),
+                pos_test=float(ctx.y.iloc[te].mean()))
+    return dict(ctx=ctx, X=ctx[FEATURES].to_numpy(np.float32), y=ctx.y.to_numpy(np.int64),
+                train=tr, val=va, test=te, info=info,
+                scope_val=np.sort(np.concatenate([tr, va])), scope_test=np.arange(len(ctx)))
+
+def temporal_split(ctx, label_mode, top=0.40):
     ctx = ctx.copy()
-    ctx["y"] = make_labels(ctx, label_mode)
+    ctx["y"] = make_labels(ctx, label_mode, top=top)
     tr = np.where(ctx.year <= SPLIT["train_end"])[0]
     va = np.where(ctx.year == SPLIT["val_year"])[0]
     te = np.where(ctx.year == SPLIT["test_year"])[0]
@@ -39,6 +63,10 @@ def temporal_split(ctx, label_mode):
     for raw, z in pairs:
         mu, sd = fit[raw].mean(), fit[raw].std(ddof=0) + 1e-8
         ctx[z] = (ctx[raw] - mu) / sd
+    if "expo_z" in FEATURES:                       # optional exposure feature
+        lo = np.log(ctx["exposure"].to_numpy(float))
+        mu, sd = lo[tr].mean(), lo[tr].std() + 1e-8
+        ctx["expo_z"] = (lo - mu) / sd
     lg = np.log1p(ctx["count"].to_numpy(float))
     mu, sd = lg[tr].mean(), lg[tr].std() + 1e-8
     info = dict(label=label_mode, years=dict(SPLIT), n_train=len(tr), n_val=len(va), n_test=len(te),
