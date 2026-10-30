@@ -1,5 +1,0 @@
-__pycache__/
-*.pyc
-*.csv
-!results/exposure/*.csv
-.venv/

@@ -8,7 +8,7 @@ authors:
     email: "er.veerpratap@gmail.com"
     affiliation: "Department of Cyber Security, School of Skill Sciences & Entrepreneurship, Galgotias University, Greater Noida, Uttar Pradesh, India"
     orcid: "https://orcid.org/0000-0002-3162-134X"
-version: "2.3.0"
+version: "2.5.0"
 date-released: "2026-10-27"
 license: MIT
 doi: "10.5281/zenodo.22932569"
