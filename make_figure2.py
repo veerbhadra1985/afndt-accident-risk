@@ -1,6 +1,7 @@
-"""Regenerate Figure 2 (protocol factorial) directly from protocol_292runs.json.
+"""Regenerate Figure 2 (protocol factorial) directly from the protocol runs.
 
-Usage:  python make_figure2.py protocol_292runs.json figs/fig3_protocol.png
+Usage:
+    python3 make_figure2.py results/protocol/protocol_runs.json figs/fig3_protocol.png
 
 Every value plotted is the mean validation AUC over four seeds of the
 better of the two configurations tried for that family in that cell,
