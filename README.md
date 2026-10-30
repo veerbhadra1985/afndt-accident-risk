@@ -1,4 +1,4 @@
-# Do machine-learning benchmarks for accident-risk prediction compare models or protocols?
+# Machine-learning benchmarks for accident-risk prediction compare protocols as much as models
 
 Code and complete results for a two-country study of how labelling and evaluation choices shape reported
 performance in machine-learning accident risk prediction. United States (US Accidents, 7.73 M records,
@@ -7,7 +7,7 @@ with test sets that were opened once.
 
 **Author:** Veer Bhadra Pratap Singh, Department of Cyber Security, School of Skill Sciences & Entrepreneurship,
 Galgotias University, Greater Noida, India · [ORCID 0000-0002-3162-134X](https://orcid.org/0000-0002-3162-134X)
-**Archive:** [10.5281/zenodo.22932569](https://doi.org/10.5281/zenodo.22932569)
+**Archive:** [10.5281/zenodo.22932568](https://doi.org/10.5281/zenodo.22932568) — resolves to the current release
 
 ## Findings
 
@@ -47,9 +47,34 @@ Every figure in the paper is regenerated from the files in `results/` by a scrip
 | 2 | `make_figure2.py` | `results/protocol/protocol_runs.json` |
 | 3 | `make_figure3.py` | `results/us/us_selected_FROZEN.json`, `results/us/us_final_seeds0-4.json`, and the UK equivalents |
 | 4 | `density_simulation.py` | `us_vmt_exposure.csv` only |
+| 5 | `risk_vs_exposure.py` | `us_vmt_exposure.csv` only |
 
 Each prints the values it plots, so the numbers in the paper can be checked against the
 figures without opening them.
+
+## Checking the paper on data it never used
+
+`grid_replication.py` is the pre-specified replication of the area-only diagnostic on sparse grid
+cells, for anyone holding collision records with coordinates and timestamps:
+
+```
+python3 grid_replication.py records.csv out.csv \
+    --lat Start_Lat --lon Start_Lng --time Start_Time --km 2 5 10 --freq h D
+```
+
+It reports, at each cell size and temporal resolution, the area-only AUC under national,
+within-cell and binary-occurrence labelling. The paper predicts a within-cell macro AUC of
+0.5000 at every cell size; a materially different value would refute the cancellation result.
+
+`recompute_delong.py` recomputes the DeLong comparisons of Table 6 from the released probability
+vectors, once the labels have been regenerated with the loader:
+
+```
+python3 recompute_delong.py results/us/us_final_seeds0-4.json results/us/test_probs us_test_labels.npy
+```
+
+It refuses to run if the label vector's length or positive proportion disagrees with the stored
+confusion matrices.
 
 **Recommendation:** report an area-only baseline as a routine diagnostic. If it scores well above chance, the
 labels are encoding exposure.
